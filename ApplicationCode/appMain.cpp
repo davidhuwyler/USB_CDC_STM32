@@ -7,14 +7,15 @@
 
 #include "appMain.h"
 #include "USBserial.h"
+#include "LED.h"
+
 
 void	appMain()
 {
-
-
+	//LED::toggle();
 }
 
 void sendRun()
 {
-	USBserial::sendLine("Run...\n");
+	//USBserial::sendLine("Run...\n");
 }

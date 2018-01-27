@@ -4,3 +4,8 @@
 /Middlewares/
 /Src/
 /startup/
+/makefile
+/objects.list
+/objects.mk
+/sources.mk
+/USBcdc.bin

@@ -244,7 +244,8 @@ void StartDefaultTask(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(500);
+	  appMain();
+    osDelay(20000);
   }
   /* USER CODE END 5 */ 
 }
